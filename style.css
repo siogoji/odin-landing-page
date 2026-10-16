@@ -16,8 +16,12 @@ body {
     margin: 0 auto;
 }
 
+header,
+footer {
+    background-color: #1F2937
+} 
+
 header {
-    background-color: #1F2937;
     padding: 8px 0 64px;
 }
 
@@ -162,4 +166,13 @@ button {
 .cta-button {
     border: 2px solid #F9FAF8;
     background-color: #3882F6;
+}
+
+footer {
+    padding: 32px 0;
+}
+
+footer p {
+    color: #F9FAF8;
+    text-align: center;
 }
